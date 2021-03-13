@@ -1,6 +1,6 @@
 # payment-gateway-integration
 
-Payment Gateway integration Webiste Creation from The Sparks Foundation.
+TASK 3:Payment Gateway Integration
 
 It's a simple donation website.
 
