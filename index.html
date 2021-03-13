@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation for kids</title>
+    <link rel="icon" href="favicon.jpg" type="image/jpg" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+<script src="https://use.fontawesome.com/69ca5d3ded.js"></script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="logo.png" class="logo"><h1>The Sparks Foundation</h1>
+            <nav>
+                <ul id="menuList">
+                    <li><a href="https://www.thesparksfoundationsingapore.org/"target="_blank">HOME</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/programs/student-scholarship-program/"target="_blank">PROGRAMS</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/about/vision-mission-and-values/"target="_blank">ABOUT</a></li>
+                    <li><a href="https://www.thesparksfoundationsingapore.org/contact-us/"target="_blank">CONTACT</a></li>
+                </ul>
+            </nav>
+            <img src="menu3.png" class="menu" 
+            onclick="togglemenu()">
+        </div>
+        <div class="row">
+            <div class="col-1">
+                <h1>Donate For Child Education</h1>
+                <h3>Come, join  our  mission  to  Educate  Every  Last  Child!</h3>
+                <a href="https://rzp.io/l/ZS4pqowOI" class="button">DONATE HERE</a>
+            </div>
+            <div class="col-2">
+                <img src="child1.png" class="child">
+            </div>
+        </div>
+    </div>
+    <script>
+
+        var menuList = document.getElementById("menuList")
+        menuList.style.maxHeight = "0px";
+        function togglemenu(){
+            if(menuList.style.maxHeight == "0px")
+            {
+                menuList.style.maxHeight = "140px";
+            }
+            else
+            {
+                menuList.style.maxHeight = "0px";
+            }  
+        }
+
+    </script>
+
+</body>
